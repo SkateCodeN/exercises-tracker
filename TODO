@@ -1,0 +1,10 @@
+*Users Dropdown and be able to edit/ delete
+*start up connection to server on boot up
+*Shutdown connection to server when I exit out of app
+*Refactor code!
+
+What a journey
+spent 3 hours trying to figure out why I could not pass state to a function
+beware of setting state in constructure as this.setState({bleh:""}) because it is set in constructor. 
+when a function calls this.state...I will get an error, state of bleh is empty!
+so insted we do this.state={bleh:""} now its mutable 
